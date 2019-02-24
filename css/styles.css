@@ -1,0 +1,57 @@
+#ireland, #tahiti, #amsterdam, #alaska {
+  display: none;
+}
+
+img {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  width: 100%;
+  height: auto;
+}
+
+#buttonPad {
+  padding-top: 40px;
+
+}
+
+.bg-info {
+  border: 50px;
+}
+
+.btn {
+  padding-left: 50px;
+  padding-right: 50px;
+  background: #ee42f4;
+  color: #f2d207
+}
+
+.container {
+  padding: 100px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+}
+}
+div.static {
+  position: static;
+  border: 3px solid #73AD21;
+}
+
+h1 {color: red;
+  align-content: stretch;
+}
+
+h3 {color: orange;
+}
+body {
+  font-family: 'Undertale';
+  font-weight: normal;
+  font-size: 1.5em;
+  background-color: #2d2f33;
+  color: white;
+}
+p {
+  color: #edbf09
+}
+ a {color: #13fc02
+}

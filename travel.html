@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <title>Destination Danger</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="static">
+<h1><I><strong>Highway to Hell</strong></I></h1>
+    <h2>Have you fallen into a routine? Tired of those lazy <I>staycations</I>? Or, do you just need to get out of town?</h2>
+      <h3>Maybe forever...</h3>
+    <img src="img/erruption.jpeg">
+    </div>
+
+
+    <form id="user-prefs">
+      <div class="form-group">
+        <label for="userName">Who are you?</label>
+        <input id="userName" type="text">
+      </div>
+
+      <div class="form-group">
+        <label for="travelerDemo">Why are you gettting out of Dodge?</label>
+        <select id="travelerDemo">
+           <option value="broke">Financial Problems!</option>
+           <option value="divorce">Family Problems!</option>
+           <option value="guilty">Legal Problems!</option>
+           <option value="monkey">Drug/Mental Problems!</option>
+           <option value="everything">All of the Above!</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="destination">Location: Continent</label>
+        <select id="destination">
+           <option value="ukraine">Europe</option>
+           <option value="syria">Middle East</option>
+           <option value="venezuela">South America</option>
+           <option value="northKorea">Asia</option>
+           <option value="congo">Africa</option>
+
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="food">Cuisine: Last Supper</label>
+        <select id="food">
+           <option value="vegan">Falafal</option>
+           <option value="stinky">Kimchi</option>
+           <option value="savory">Empanadas</option>
+            <option value="spicy">PiriPiri</option>
+            <option value="soupy">Borshch</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="risk">It's not easy to choose when there are so many ways to die:</label>
+        <select id="risk">
+           <option value="total">Holy War</option>
+           <option value="cult">Cult of Personality</option>
+           <option value="riots">Coup de ta</option>
+            <option value="sick">Plague</option>
+            <option value="army">Invasion</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="death">Speaking of death, which way would you want to go?</label>
+        <select id="death">
+           <option value="explosive">Blown up or Shot</option>
+           <option value="torture">Gulag, Re-education</option>
+           <option value="chaotic">Tear Gas & Rubber Bullets</option>
+           <option value="outbreak">Ebola, Malaria</option>
+           <option value="silent">Sniper, F'ing Cold</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="positive">Just remember to always look on the bright side of life and in each of these countries your garunteed to have one cool experince.</label>
+        <select id="positive">
+          <option value="archeological">Historic Lands</option>
+          <option value="magestic">Coastline</option>
+          <option value="tropical">Sunny Beaches</option>
+          <option value="jungle">Tropical Rainforrest</option>
+          <option value="vodka">It's not Russia</option>
+        </select>
+      </div>
+
+      <div id="buttonPad">
+        <button type="submit" class="btn btn-info btn-lg">Where the hell 'm I goin'?</button>
+      </div>
+    </form>
+
+
+    <!-- Vacation Destinations -->
+    <div id="syria">
+      <h1>Syria</h1>
+      <p>With almost no government, there are almost no limits to the kinds of trouble you can get into in Syria <span class="fillInName"></span>! With more malitias and armies fighting on the ground a near impossible place to tell friend from fo.
+      </p>
+      <h3>Advisory! <a href=https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/syria-travel-advisory.html>Syria</a></h3>
+      <ul>
+        <li>Check out<a href=https://wikitravel.org/en/Syria>for info</a>, an untold story.</li>
+        <li>This guy went there and lived <a href=https://www.unusualtraveler.com/traveling-to-syria-everything-you-need-to-know-update-november-2018/>
+      </ul>
+    </div>
+
+    <div id="northKorea">
+      <h1>North Korea</h1>
+      <p>Enjoy national hospitality, just don't steal a poster from your hotel lobby. <span class="fillInName"></span>! I always feel like somebodies watching me.
+      </p>
+      <h3>Details here <a href=https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/KoreaDemocraticPeoplesRepublicof.html>North Korea</a></h3>
+      <ul>
+        <li>Stay in an Gulag<a href=https://freedomhouse.org/blog/north-korea-s-gulag-cannot-be-ignored>Your labor wont go unoticed</a>, a unique and painful time for the whole family!</li>
+        <li>Be warned<a href=https://wikitravel.org/en/North_Korea>bring your own snacks </a> and be sure to try the national pastimte: starving.</li>
+      </ul>
+    </div>
+
+    <div id="venezuela">
+      <h1>Venezuela</h1>
+      <p>You nailed it amigo <span class="fillInName"></span>! this could become Syria 2.0 on the Carribean or just a blast of tear gas, either way get ready for some historic memories.
+      </p>
+      <h3>Fly on over to <a href=https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Venezuela.html> Venezuela</a> <span class="fillInName"></span>! and take in shopping, with spiraling inflation, prices rise while you stand in line at the store to check out.</h3>
+    </div>
+
+    <div id="congo">
+      <h1>Congo</h1>
+      <p><span class="fillInName"></span>, Formally known as the Democratic Republic of Congo this is considered the safest destination to choose but with an actual ongoing Ebola outbreak its hard to resist.
+      </p>
+      <h3>Don't take my word for it read up hear <a href=https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/democratic-republic-of-the-congo-travel-advisory.html>you can really get in too deep here despite the beauty.</a></h3>
+      <ul>
+        <li>Nothing breeds instability quite like a modern day plague so get ready for armed conflict, there is also armed conflict <a href=https://wikitravel.org/en/Democratic_Republic_of_the_Congo></a>cause who says one disaster is ever enough?</li>
+        <li>Prepare to get robbed by roaming packs of wild boys <a href=https://www.worldnomads.com/travel-safety/africa/democratic-republic-of-the-congo/democratic-republic-of-congo-a-world-of-crime> in this travel tip.</a></li>
+        <li>But there are some beautiful nature that you can only find in the jungle <a href=https://www.lonelyplanet.com/congo>like elephants!</a> and probably poachers too!</li>
+      </ul>
+      <div id="ukraine">
+        <h1>Ukraine</h1>
+        <p><span class="fillInName"></span>, Ukraine is commonly known as 'Europe's Russia', cause who doesn't need a little Russia of their own and Eurpes largest country.
+        </p>
+        <p>I lied <span class="fillInName"></span>, Ukraine is technically safer than any other destination but when you take into account the vodka, hookers and cold, you still be lucky to come home in one piece or outlvive the STD's you just contracted. <a href=https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/ukraine-travel-advisory.html>Ukraine! The trip that never stops tripping you up.</a></p>
+        <ul>
+          <li>The Beast in the East <a href=https://www.quora.com/How-safe-is-Eastern-Ukraine-i-e-the-Donetsk-and-Lugansk-regions-for-tourists>Donetsk</a>, is for snipers.</li>
+          <li>Get into the fight and get paied <a href=https://www.realcleardefense.com/articles/2018/09/07/russias_private_military_companies_in_ukraine_are_an_opportunity_for_kiev_113779.html/>in one of the worlds oldest professions.</a>.</li>
+          <li>The Wagner Group always has an oppening <a href=https://en.wikipedia.org/wiki/Wagner_Group>Make freinds and influance others; become the new you</a> there's a little War in every Wagner</li>
+        </ul>
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>
