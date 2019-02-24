@@ -96,7 +96,7 @@ $(document).ready(function() {
           $("#ukraine").hide();
         }
     // console.log(travelerDemo);
-debugger
-        event.preventDefault();
+
+        // event.preventDefault();
       });
     });
