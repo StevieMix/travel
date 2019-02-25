@@ -38,11 +38,17 @@ div.static {
   border: 3px solid #73AD21;
 }
 
-h1 {color: red;
-  align-content: stretch;
+h1 {
+  color: red;
+  text-align: center;
+  text-decoration: underline;
+}
+h2 {
+  text-align: center;
 }
 
 h3 {color: orange;
+  text-align: center;
 }
 body {
   font-family: 'Undertale';

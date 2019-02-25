@@ -22,7 +22,7 @@ $(document).ready(function() {
           $("#venezuela").fadeIn();
           $("#congo").hide();
           $("#congo").hide();
-        } else if (travelerDemo === 'divorce' && destination === 'positive') {
+        } else if (travelerDemo === 'divorce' && destination === 'africa') {
           $("#syria").hide();
           $("#northKorea").hide();
           $("#venezuela").hide();
@@ -39,6 +39,12 @@ $(document).ready(function() {
           $("#northKorea").hide();
           $("#venezuela").hide();
           $("#congo").hide();
+          $("#ukraine").hide();
+        } else if (food === 'spicy' && death === 'torture') {
+          $("#syria").hide();
+          $("#northKorea").hide();
+          $("#venezuela").hide();
+          $("#congo").fadeIn();
           $("#ukraine").hide();
         } else if (risk === 'sick') {
           $("#syria").hide();
@@ -88,6 +94,12 @@ $(document).ready(function() {
           $("#venezuela").hide();
           $("#congo").hide();
           $("#ukraine").hide();
+        } else if (positive === 'vodka') {
+          $("#syria").hide();
+          $("#northKorea").hide();
+          $("#venezuela").hide();
+          $("#congo").hide();
+          $("#ukraine").fadeIn();
         } else {
           $("#syria").hide();
           $("#northKorea").hide();
